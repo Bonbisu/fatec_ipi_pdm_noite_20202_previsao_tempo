@@ -16,16 +16,20 @@ const Cartao = (props) => {
 const estilos = StyleSheet.create({
   cartao: {
     alignItems: 'center',
-    shadowColor: 'black',
+    shadowColor: 'red',
+    backgroundColor: '#fff',
     textShadowOffset: {
       width: 0,
       height: 2
     },
-    shadowRadius: 6,
+    shadowRadius: 1,
     shadowOpacity: 0.32,
-    elevation: 4,
-    padding: 12,
-    borderRadius: 12
+    elevation: 7,
+    marginVertical: 14,
+    padding: 14,
+    borderRadius: 7,
+    borderWidth: 1,
+    borderColor: '#d1d1d1'
   }
 })
 
