@@ -16,7 +16,7 @@ import OverviewCard from './components/OverviewCard';
 const baseUrl = "https://api.openweathermap.org/data/2.5";
 const endPointForecast = "/forecast?lang=pt_br&units=metric";
 const endPointOneCall = "/onecall?lang=pt_br&units=metric";
-const apiKey = '27e3987c84691fdebf104a27d34ac483';
+const apiKey = '';
 
 export default function App() {
 
